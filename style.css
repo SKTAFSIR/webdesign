@@ -1,0 +1,150 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial;
+}
+
+.logo a h1 {
+    font-weight: bold;
+}
+
+.logo a {
+    text-decoration: none;
+    position: absolute;
+    display: inline-block;
+    padding-left: 200px;
+    margin-top: -80px;
+    background-color: rgb(205, 255, 255);
+    width: 100%;
+}
+
+.logo {
+    position: fixed;
+    width: 100%;
+}
+
+.logo a h1 span {
+    color: cornflowerblue;
+    font-size: 80px;
+}
+
+.section-top {
+    margin-top: 60px;
+    height: 600px;
+    background-image: url(marketing.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 800px;
+}
+
+.section-top h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+    color: aliceblue;
+}
+
+.box-1 p {
+    width: 40%;
+    margin: 30px auto;
+    font-size: 16px;
+    text-align: center;
+    color: aliceblue;
+    line-height: 1.7;
+}
+
+.top-btn {
+    padding: 15px 20px;
+    margin-top: 30px;
+    background-color: aqua;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.top-btn:hover {
+    background-color: azure;
+    color: brown;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.btn-div {
+    position: relative;
+    margin-left: 45%;
+}
+
+.middle {
+    background-color: rgb(51, 51, 51);
+    padding-bottom: 500px;
+}
+
+.middle h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: aliceblue;
+}
+
+.serviceare {
+    display: flex;
+    margin: 20px;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.serviceare .service img {
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+
+.serviceare .service .srcontent {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.serviceare .service .srcontent h2 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: rgb(45, 118, 255);
+    font-weight: bold;
+}
+
+.serviceare .service .srcontent p {
+    padding-bottom: 20px;
+}
+
+.sub {
+    width: 100%;
+    background-color: skyblue;
+    height: 200px;
+    position:
+}
+
+.container {
+    padding-top: 70px;
+    margin-top: 50%;
+    margin-left: 45%;
+}
+
+.container button {
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color: rgb(255, 255, 254);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.container .email {
+    padding: 10px 70px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 162, 255);
+    font-weight: bold;
+    border-radius: 5px;
+}
